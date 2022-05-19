@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar-Chart</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index1.js"></script>
+</head>
+<body>
+  <div class="chart-conatiner1">
+    <canvas id="myChart1"></canvas>
+    <p>This <b>Bar-Chart</b> depicts amount of sugar and sodium in the selcted cereals. There are many patients of Blood pressure and Diabetes who eats cereals but also have to limit their sugar and salt content.
+      Here we have used <b>Transition Interaction Technique</b> which can hide one or both variables if needed to view the visualization properly.</p>
+    
+  </div>
+
+  <script>
+    const myChart = new Chart(
+      document.getElementById('myChart1'),
+      config
+    );
+  </script>
+</body>
+</html>

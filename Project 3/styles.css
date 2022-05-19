@@ -1,0 +1,13 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.chart-conatiner1{
+  position: relative;
+  width: 80vw;
+  height: 100vh;
+}
